@@ -1,0 +1,15 @@
+[package]
+name = "BlockandStack"
+version = "1.0.0"
+authors = []
+
+[addresses]
+meg_addr = "0xc56a95dbf5fe442ead0f05f6f3d31ac01e4782e10bdb08453391519ce76d404b"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
